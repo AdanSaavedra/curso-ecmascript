@@ -1,12 +1,6 @@
-const fruits = ()=>{
-    if(true){
-        var fruit1 = 'Apple'
-        let fruit2 = 'kiwi'
-        const fruit3 = 'Banana'
-    }
-    console.log(fruit1)
-    console.log(fruit2)
-    console.log(fruit3)
+function sum(num, ...values){
+    console.log(values)
+    console.log(num+ values[0])
+    return num + values[0]
 }
-
-fruits()
+sum(1,1,2,3)
