@@ -1,6 +1,22 @@
-function sum(num, ...values){
-    console.log(values)
-    console.log(num+ values[0])
-    return num + values[0]
+class user{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    speak(){
+        return 'Hello'
+    }
+    greeting(){
+        return `${this.speak()} ${this.name}`
+    }
+    get uAge(){
+        return this.age
+    }
+    set uAge(n){
+        this.age = n;
+    }
 }
-sum(1,1,2,3)
+
+const ana = new user('Ana', 15)
+console.log(ana.uAge)
+console.log(ana.uAge(20));
