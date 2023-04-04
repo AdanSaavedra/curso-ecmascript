@@ -11,5 +11,6 @@
     "ecmascript"
   ],
   "author": "Adan Saavedra <adansaavedraa@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
